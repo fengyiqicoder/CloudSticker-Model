@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="StickerCoreData" representedClassName="StickerCoreData" syncable="YES" codeGenerationType="class">
+        <attribute name="colorInt" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="fontSize" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String"/>
+    </entity>
+    <configuration name="Cloud" usedWithCloudKit="YES">
+        <memberEntity name="StickerCoreData"/>
+    </configuration>
+    <elements>
+        <element name="StickerCoreData" positionX="-63" positionY="-18" width="128" height="89"/>
+    </elements>
+</model>
